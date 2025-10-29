@@ -8,8 +8,7 @@ pull-js -<br>
 Pulls ALL files to HOME and overwrites existing ones. Use this to update files and pull the full project.
 
 auto-batch.js -<br>
--main program called by user that uses remote-hack.js, remote-weaken.js, and remote-grow.js to auto hack the best server available at the time
-using distributed batch
+-main program called by user that uses remote-hack.js, remote-weaken.js, and remote-grow.js to auto hack. Preps all severs to be in teh best range and calculates 1 batch in desc max money order. Runs one batch per untill it runs out of ram. 
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 TOOLS:
