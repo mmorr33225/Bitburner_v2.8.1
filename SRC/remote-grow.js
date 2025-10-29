@@ -1,15 +1,1 @@
-export async function main(ns) {
-  ns.disableLog("sleep");
-  const target = ns.args[0];
-  const delay = Number(ns.args[1] ?? 0);
-  if (!target) {
-    ns.tprint("remote-grow.js: missing target arg");
-    return;
-  }
-  if (delay > 0) await ns.sleep(Math.max(0, Math.round(delay)));
-  try {
-    await ns.grow(target);
-  } catch (e) {
-    ns.print(`remote-grow.js: grow error for ${target}: ${e}`);
-  }
-}
+export async function main(ns){ const t=ns.args[0]; if(!t){ns.tprint("grow: missing target"); return;} await ns.grow(t); }
