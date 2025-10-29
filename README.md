@@ -4,7 +4,10 @@ Git repo for Bitburner v2.8.1.
 ---------------------------------------------------------------------------------------------------------------------------------------
 MAIN:
 ---------------------------------------------------------------------------------------------------------------------------------------
-auto-batch.js <br>
+pull-js -<br>
+Pulls ALL files to HOME and overwrites existing ones. Use this to update files and pull the full project.
+
+auto-batch.js -<br>
 -main program called by user that uses remote-hack.js, remote-weaken.js, and remote-grow.js to auto hack the best server avaliable at the time
 using distributed batch
 
