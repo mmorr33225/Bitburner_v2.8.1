@@ -8,7 +8,7 @@ pull-js -<br>
 Pulls ALL files to HOME and overwrites existing ones. Use this to update files and pull the full project.
 
 auto-batch.js -<br>
--main program called by user that uses remote-hack.js, remote-weaken.js, and remote-grow.js to auto hack the best server avaliable at the time
+-main program called by user that uses remote-hack.js, remote-weaken.js, and remote-grow.js to auto hack the best server available at the time
 using distributed batch
 
 ---------------------------------------------------------------------------------------------------------------------------------------
@@ -27,7 +27,7 @@ sell-small-servers.js -<br>
 Finds all server with least RAM and removes them. Useful for replacing old servers. 
 
 rename-servers.js -<br>
-Renames all servers purchased to be consistant with naming scheme "01 Server 8GB". 
+Renames all servers purchased to be consistent with naming scheme "01 Server 8GB". 
 
 kill-all.js -<br>
 Kills all active scripts.
