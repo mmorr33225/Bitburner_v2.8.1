@@ -23,7 +23,7 @@ const TARGET_UTILIZATION    = 0.95;  // aim to use ~95% of free RAM
 const UTIL_HEADROOM         = 0.98;  // internal safety when checking “fits”
 const PCT_MIN               = 0.002; // 0.2% lower bound on hack fraction
 const PCT_MAX               = 0.20;  // 20% upper bound 
-const MAX_BATCHES_CAP       = 16;     // you can raise to 12/16 if you’ve got a lot RAM
+const MAX_BATCHES_CAP       = 9999999;     
 
 const WORKERS = ["remote-hack.js", "remote-grow.js", "remote-weaken.js"];
 
@@ -452,3 +452,4 @@ export async function main(ns){
     await ns.sleep(100);
   }
 }
+
